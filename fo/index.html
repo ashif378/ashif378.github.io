@@ -6,11 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0" nonce="qJuw2a0o"></script>
-
 </head>
 <body>
+    <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            appId      : '286475309714481',
+            xfbml      : true,
+            version    : 'v10.0'
+          });
+          FB.AppEvents.logPageView();
+        };
+      
+        (function(d, s, id){
+           var js, fjs = d.getElementsByTagName(s)[0];
+           if (d.getElementById(id)) {return;}
+           js = d.createElement(s); js.id = id;
+           js.src = "https://connect.facebook.net/en_US/sdk.js";
+           fjs.parentNode.insertBefore(js, fjs);
+         }(document, 'script', 'facebook-jssdk'));
+      </script>
+
+<div
+class="fb-like"
+data-share="true"
+data-width="450"
+data-show-faces="true">
+</div>
+
     <div class="fb-group" data-href="https://www.facebook.com/groups/devskillbd" data-width="410" data-show-social-context="true" data-show-metadata="false"><blockquote cite="https://www.facebook.com/groups/devskillbd" class="fb-xfbml-parse-ignore">Dev Skill - সফটওয়্যার ইঞ্জিনিয়ারিং ট্রেনিং</blockquote></div>
 
     <div>
