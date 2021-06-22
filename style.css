@@ -35,7 +35,7 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .services, .skills, .teams, .contact, footer{
+.about, .services, .skills, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
@@ -230,16 +230,14 @@ section .title::after{
 }
 
 /* services section styling */
-.services, .teams{
+.services{
     color:#fff;
     background: #111;
 }
-.services .title::before,
-.teams .title::before{
+.services .title::before{
     background: #fff;
 }
-.services .title::after,
-.teams .title::after{
+.services .title::after{
     background: #111;
     content: "what i provide";
 }
@@ -335,18 +333,18 @@ section .title::after{
     background: crimson;
 }
 .skills-content .right .html::before{
-    width: 90%;
+    width: 80%;
 }
 .skills-content .right .css::before{
     width: 60%;
 }
 .skills-content .right .js::before{
-    width: 80%;
+    width: 70%;
 }
-.skills-content .right .php::before{
+.skills-content .right .netcore::before{
     width: 50%;
 }
-.skills-content .right .mysql::before{
+.skills-content .right .sqlserver::before{
     width: 70%;
 }
 
